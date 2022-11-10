@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content" id="con">
+        <div class="color"></div>
+
+        <h1>To-Do List</h1>
+
+        <div class="filter">
+            <i class="glyphicon glyphicon-sort-by-attributes sort"></i>
+        </div>
+
+        <div class="input">
+            <input class="add_input" type="text">
+            <i class="fa fa-times icon" aria-hidden="true"></i>
+        </div>
+        <span style="color: red; font-weight:bold; visibility: hidden;">Write something in note!</span>
+        <div class="notes">
+            <ul id="task-list">
+                <!-- <li class="list-item"><br>
+                    <a href="#">New note<i class="fa fa-times delete-item"></i></a></li> -->
+            </ul>
+        </div>
+
+        <div class="add-btn">
+            <div class="circle">+</div>
+            <div class="text"><p>Add</p></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

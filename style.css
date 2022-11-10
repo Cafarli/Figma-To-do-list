@@ -1,0 +1,156 @@
+body {
+    font-family: Roboto;
+    text-align: center;
+}
+
+.content {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 33%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.content .color {
+    background-color: #FFDC40;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 40px;
+    width: 100%;
+}
+
+.content .filter{
+    position: relative;
+    margin: 2% 0;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.content .filter .sort {
+    font-size: 20px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: 50px ;
+    right: 0;
+    color: #C4C4C4;
+}
+
+.content .filter .sort:hover {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+.content .input .add_input {
+    width: 81%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1.5px #C4C4C4 solid;
+    padding: 0 20% 0 5%;
+    box-sizing: border-box;
+    
+}
+.content .input {
+    position: relative;
+}
+
+.content .input .icon {
+    position: absolute;
+    color: #C4C4C4;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid #C4C4C4;
+    border-radius: 50%;
+    padding: 3px 6px;
+    margin-right: 17%;
+    right: 0;
+    top: 10px;
+}
+
+/* NOTES */
+
+.content .notes {
+    border: 1.5px solid #C4C4C4;
+    width: 80%;
+    margin: 5% auto;
+    border-radius: 10px;
+    min-height: 200px;
+    display: none;
+}
+
+.content .notes li{
+    list-style: none;
+    position: relative;
+    margin-bottom: 5%;
+    text-align: start;
+    font-size: 14px;
+}
+ .content .notes ul, li{
+    line-height: 40px;
+}
+
+.content .notes li i{
+    font-size: 20px;
+    color: #C4C4C4;    
+    border: 1px solid #C4C4C4;
+    border-radius: 50%;
+    padding: 3px 6px;
+    vertical-align: middle;
+    top: 5px;
+    bottom: 5px;
+    right: 10%;
+    position: absolute;
+}
+
+.content .fa:hover{
+    cursor: pointer;
+    background-color: #833AE0;
+    color: white;
+}
+
+/* ADD BUTTON */
+.content .add-btn{
+    background-color: #833AE0;
+    color: white;
+    font-size: 14px;
+    border-radius: 50px;
+    width: 35%;
+    margin: 5% 35%;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.content .add-btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #9953F1;
+}
+
+.content .add-btn .circle {
+    background-color: #9953F1;
+    padding: 10%;
+    border-radius: 50px;
+    /* width: 35%; */
+    width: 45px;
+}
+
+@media screen and (max-width: 960px) {
+    .content .add-btn .circle {
+        width: 50%;
+    }    
+    .content .add-btn .text {
+        width: 50%;
+    }
+}
+
+.content .add-btn:hover .circle {
+    background-color: #833AE0;
+}
+
+.content .add-btn .text {
+    width: 50%;
+}
